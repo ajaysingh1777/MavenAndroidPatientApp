@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    
+    <listeners>
+	<listener class-name="com.main.util.RetryFailedTestCases"/>
+	</listeners>
+    
+  <test thread-count="1" name="Test">
+      <!-- <parameter name="platform" value="Android 8.0"/>
+      <parameter name="udid" value="797a9b000504"/>
+      <parameter name="systemPort" value="8200"/> -->
+      
+    <classes>
+      <class name="com.patientApp.TestCases.MavenTestClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

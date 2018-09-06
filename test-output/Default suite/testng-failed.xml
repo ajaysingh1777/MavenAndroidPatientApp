@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.patientApp.TestCases.MavenTestClass">
+        <methods>
+          <include name="signUpInApplication"/>
+          <include name="myMedicalRecords"/>
+          <include name="setup"/>
+          <include name="whatWeTreat"/>
+          <include name="updatingTheProfile"/>
+          <include name="howDocsAppWorks"/>
+        </methods>
+      </class> <!-- com.patientApp.TestCases.MavenTestClass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

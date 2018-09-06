@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="195.193" tests="6" errors="0" skipped="4" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\DocsApp\eclipse-workspace\MavenAndroidPatientAppProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\DocsApp\eclipse-workspace\MavenAndroidPatientAppProject"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\DocsApp\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\OldLaptop\System Set Up\Maven\apache-maven-3.5.4\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_161/bin;C:\Program Files\Java\jdk1.8.0_161/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Users\DocsApp\AppData\Local\Android\Sdk\tools\bin;C:\Users\DocsApp\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jre1.8.0_161\bin;C:\Program Files\nodejs\;C:\Users\DocsApp\AppData\Local\Android\Sdk\tools;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_161\bin;D:\OldLaptop\System Set Up\Maven\apache-maven-3.5.4\bin;C:\Program Files\PuTTY\;C:\Users\DocsApp\AppData\Local\Microsoft\WindowsApps;C:\Users\DocsApp\AppData\Roaming\npm;C:\Users\DocsApp\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="maven.conf" value="D:\OldLaptop\System Set Up\Maven\apache-maven-3.5.4\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\OldLaptop\System Set Up\Maven\apache-maven-3.5.4\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\DocsApp"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="DocsApp"/>
+    <property name="java.class.path" value="D:\OldLaptop\System Set Up\Maven\apache-maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\OldLaptop\System Set Up\Maven\apache-maven-3.5.4\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="signUpInApplication" classname="com.patientApp.TestCases.MavenTestClass" time="0">
+    <skipped message="Expected condition failed: waiting for presence of element located by: By.id: text_english (tried for 15 second(s) with 500 milliseconds interval)"/>
+    <system-err><![CDATA[Sep 06, 2018 7:06:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="signUpInApplication" classname="com.patientApp.TestCases.MavenTestClass" time="0">
+    <skipped message="Expected condition failed: waiting for presence of element located by: By.id: text_english (tried for 15 second(s) with 500 milliseconds interval)"/>
+    <system-err><![CDATA[Sep 06, 2018 7:07:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="signUpInApplication" classname="com.patientApp.TestCases.MavenTestClass" time="9.318">
+    <failure message="An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;DESKTOP-FGT58SB&apos;, ip: &apos;192.168.2.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, databaseEnabled: false, desired: {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, device: Android, deviceName: Android, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, skipUnlock: true, version: }, device: Android, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 797a9b000504, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 797a9b000504, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 8.1.0, skipUnlock: true, statBarHeight: 72, takesScreenshot: true, version: , viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 57755f17-7c53-4095-a582-ae0fc0354b76&#10;*** Element info: {Using=id, value=text_english}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-FGT58SB', ip: '192.168.2.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, databaseEnabled: false, desired: {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, device: Android, deviceName: Android, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, skipUnlock: true, version: }, device: Android, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 797a9b000504, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 797a9b000504, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 8.1.0, skipUnlock: true, statBarHeight: 72, takesScreenshot: true, version: , viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 57755f17-7c53-4095-a582-ae0fc0354b76
+*** Element info: {Using=id, value=text_english}
+	at com.patientApp.TestCases.MavenTestClass.signUpInApplication(MavenTestClass.java:37)
+</failure>
+    <system-out><![CDATA[Inside Listner
+signUpInApplication
+]]></system-out>
+    <system-err><![CDATA[Sep 06, 2018 7:07:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Sep 06, 2018 7:07:42 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+WARNING: WebDriverException thrown by findElement(By.id: text_english)
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-FGT58SB', ip: '192.168.2.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, databaseEnabled: false, desired: {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, device: Android, deviceName: Android, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, skipUnlock: true, version: }, device: Android, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 797a9b000504, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 797a9b000504, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 8.1.0, skipUnlock: true, statBarHeight: 72, takesScreenshot: true, version: , viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 57755f17-7c53-4095-a582-ae0fc0354b76
+*** Element info: {Using=id, value=text_english}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:149)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsById(RemoteWebDriver.java:369)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementsById(DefaultGenericMobileDriver.java:66)
+	at io.appium.java_client.AppiumDriver.findElementsById(AppiumDriver.java:153)
+	at org.openqa.selenium.By$ById.findElements(By.java:210)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:145)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.patientApp.Base.MavenGenericMethods.OnboardingToConsultScreen(MavenGenericMethods.java:165)
+	at com.patientApp.TestCases.MavenTestClass.signUpInApplication(MavenTestClass.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:838)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1009)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-FGT58SB', ip: '192.168.2.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, databaseEnabled: false, desired: {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, device: Android, deviceName: Android, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, skipUnlock: true, version: }, device: Android, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 797a9b000504, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 797a9b000504, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 8.1.0, skipUnlock: true, statBarHeight: 72, takesScreenshot: true, version: , viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 57755f17-7c53-4095-a582-ae0fc0354b76
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:291)
+	at com.main.util.GetScreenShot.CaptureScreenShot(GetScreenShot.java:52)
+	at Listener.ListenerTest.onTestFailure(ListenerTest.java:36)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1388)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:633)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:838)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1009)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]></system-err>
+  </testcase>
+  <testcase name="updatingTheProfile" classname="com.patientApp.TestCases.MavenTestClass" time="0">
+    <skipped message="An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;DESKTOP-FGT58SB&apos;, ip: &apos;192.168.2.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, databaseEnabled: false, desired: {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, device: Android, deviceName: Android, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, skipUnlock: true, version: }, device: Android, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 797a9b000504, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 797a9b000504, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 8.1.0, skipUnlock: true, statBarHeight: 72, takesScreenshot: true, version: , viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: b23cf5f4-4d5a-4694-aae9-86d2b161eac3&#10;*** Element info: {Using=id, value=etEmailAddress}"/>
+    <system-out><![CDATA[ INFO [main] (MavenGenericMethods.java:745)- ******************profileUpdateHam****************
+ INFO [main] (MavenGenericMethods.java:746)- CLICK ON THE HAMBURGER MENU
+ INFO [main] (MavenGenericMethods.java:752)- CLICK ON THE MY PROFILE
+ INFO [main] (MavenGenericMethods.java:756)- UPDATING THE NAME
+ INFO [main] (MavenGenericMethods.java:761)- ENTERING THE MOBILE NUMBER
+ INFO [main] (MavenGenericMethods.java:766)- ENTERING THE EMAIL ID
+]]></system-out>
+    <system-err><![CDATA[Sep 06, 2018 7:08:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="updatingTheProfile" classname="com.patientApp.TestCases.MavenTestClass" time="0">
+    <skipped message="An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;DESKTOP-FGT58SB&apos;, ip: &apos;192.168.2.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, databaseEnabled: false, desired: {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, device: Android, deviceName: Android, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, skipUnlock: true, version: }, device: Android, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 797a9b000504, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 797a9b000504, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 8.1.0, skipUnlock: true, statBarHeight: 72, takesScreenshot: true, version: , viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 7c9d8483-faf7-48cb-8972-9f98916a849b&#10;*** Element info: {Using=id, value=etFullName}"/>
+    <system-out><![CDATA[ INFO [main] (MavenGenericMethods.java:745)- ******************profileUpdateHam****************
+ INFO [main] (MavenGenericMethods.java:746)- CLICK ON THE HAMBURGER MENU
+ INFO [main] (MavenGenericMethods.java:752)- CLICK ON THE MY PROFILE
+ INFO [main] (MavenGenericMethods.java:756)- UPDATING THE NAME
+]]></system-out>
+    <system-err><![CDATA[Sep 06, 2018 7:08:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="updatingTheProfile" classname="com.patientApp.TestCases.MavenTestClass" time="15.498">
+    <failure message="An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;DESKTOP-FGT58SB&apos;, ip: &apos;192.168.2.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, databaseEnabled: false, desired: {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, device: Android, deviceName: Android, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, skipUnlock: true, version: }, device: Android, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 797a9b000504, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 797a9b000504, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 8.1.0, skipUnlock: true, statBarHeight: 72, takesScreenshot: true, version: , viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 32a559c6-b763-43cc-8aaa-5cc182508144" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-FGT58SB', ip: '192.168.2.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, databaseEnabled: false, desired: {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, device: Android, deviceName: Android, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, skipUnlock: true, version: }, device: Android, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 797a9b000504, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 797a9b000504, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 8.1.0, skipUnlock: true, statBarHeight: 72, takesScreenshot: true, version: , viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 32a559c6-b763-43cc-8aaa-5cc182508144
+	at com.patientApp.TestCases.MavenTestClass.updatingTheProfile(MavenTestClass.java:70)
+</failure>
+    <system-out><![CDATA[ INFO [main] (MavenGenericMethods.java:745)- ******************profileUpdateHam****************
+ INFO [main] (MavenGenericMethods.java:746)- CLICK ON THE HAMBURGER MENU
+ INFO [main] (MavenGenericMethods.java:752)- CLICK ON THE MY PROFILE
+ INFO [main] (MavenGenericMethods.java:756)- UPDATING THE NAME
+ INFO [main] (MavenGenericMethods.java:761)- ENTERING THE MOBILE NUMBER
+ INFO [main] (MavenGenericMethods.java:766)- ENTERING THE EMAIL ID
+Inside Listner
+updatingTheProfile
+]]></system-out>
+    <system-err><![CDATA[Sep 06, 2018 7:09:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-FGT58SB', ip: '192.168.2.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, databaseEnabled: false, desired: {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, device: Android, deviceName: Android, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, skipUnlock: true, version: }, device: Android, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 797a9b000504, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 797a9b000504, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 8.1.0, skipUnlock: true, statBarHeight: 72, takesScreenshot: true, version: , viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 32a559c6-b763-43cc-8aaa-5cc182508144
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:291)
+	at com.main.util.GetScreenShot.CaptureScreenShot(GetScreenShot.java:52)
+	at Listener.ListenerTest.onTestFailure(ListenerTest.java:36)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1388)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:633)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:838)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1009)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]></system-err>
+  </testcase>
+</testsuite>
