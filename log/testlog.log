@@ -2526,3 +2526,41 @@
 2018-09-06 19:09:10,737 - com.patientApp.Base.MavenGenericMethods -INFO - UPDATING THE NAME
 2018-09-06 19:09:15,357 - com.patientApp.Base.MavenGenericMethods -INFO - ENTERING THE MOBILE NUMBER
 2018-09-06 19:09:18,687 - com.patientApp.Base.MavenGenericMethods -INFO - ENTERING THE EMAIL ID
+2018-09-07 12:33:51,443 - com.patientApp.Base.MavenGenericMethods -INFO - ******************profileUpdateHam****************
+2018-09-07 12:33:51,449 - com.patientApp.Base.MavenGenericMethods -INFO - CLICK ON THE HAMBURGER MENU
+2018-09-07 12:33:53,421 - com.patientApp.Base.MavenGenericMethods -INFO - CLICK ON THE MY PROFILE
+2018-09-07 12:33:56,273 - com.patientApp.Base.MavenGenericMethods -INFO - UPDATING THE NAME
+2018-09-07 12:34:01,966 - com.patientApp.Base.MavenGenericMethods -INFO - ENTERING THE MOBILE NUMBER
+2018-09-07 12:34:05,693 - com.patientApp.Base.MavenGenericMethods -INFO - ENTERING THE EMAIL ID
+2018-09-07 12:34:09,273 - com.patientApp.Base.MavenGenericMethods -INFO - ENTERING THE AGE
+2018-09-07 12:34:14,606 - com.patientApp.Base.MavenGenericMethods -INFO - APPLYING THE ASSERTION
+2018-09-07 12:34:14,609 - com.patientApp.Base.MavenGenericMethods -INFO - CLICK ON THE SAVE BUTTON
+2018-09-07 12:34:19,849 - com.patientApp.Base.MavenGenericMethods -INFO - CLICK ON THE BACK BUTTON TO BRING ON THE HOME PAGE
+2018-09-07 12:34:41,292 - com.patientApp.Base.MavenGenericMethods -INFO - ******************whatWeTreatHam****************
+2018-09-07 12:34:41,292 - com.patientApp.Base.MavenGenericMethods -INFO - CLICK ON THE HAMBURGER MENU
+2018-09-07 12:34:42,617 - com.patientApp.Base.MavenGenericMethods -INFO - VALIDATING THE ASSERTION
+2018-09-07 12:35:14,537 - com.patientApp.Base.MavenGenericMethods -INFO - ******************whatWeTreatHam****************
+2018-09-07 12:35:14,537 - com.patientApp.Base.MavenGenericMethods -INFO - CLICK ON THE HAMBURGER MENU
+2018-09-07 12:35:16,486 - com.patientApp.Base.MavenGenericMethods -INFO - VALIDATING THE ASSERTION
+2018-09-07 12:35:40,297 - com.patientApp.Base.MavenGenericMethods -INFO - ******************whatWeTreatHam****************
+2018-09-07 12:35:40,297 - com.patientApp.Base.MavenGenericMethods -INFO - CLICK ON THE HAMBURGER MENU
+2018-09-07 12:35:41,574 - com.patientApp.Base.MavenGenericMethods -INFO - VALIDATING THE ASSERTION
+2018-09-07 13:34:06,041 - com.patientApp.Base.MavenGenericMethods -INFO - ******************profileUpdateHam****************
+2018-09-07 13:34:06,224 - com.patientApp.Base.MavenGenericMethods -INFO - CLICK ON THE HAMBURGER MENU
+2018-09-07 13:34:07,458 - com.patientApp.Base.MavenGenericMethods -INFO - CLICK ON THE MY PROFILE
+2018-09-07 13:34:10,572 - com.patientApp.Base.MavenGenericMethods -INFO - UPDATING THE NAME
+2018-09-07 13:34:17,603 - com.patientApp.Base.MavenGenericMethods -INFO - ENTERING THE MOBILE NUMBER
+2018-09-07 13:34:20,826 - com.patientApp.Base.MavenGenericMethods -INFO - ENTERING THE EMAIL ID
+2018-09-07 13:34:24,055 - com.patientApp.Base.MavenGenericMethods -INFO - ENTERING THE AGE
+2018-09-07 13:34:28,655 - com.patientApp.Base.MavenGenericMethods -INFO - APPLYING THE ASSERTION
+2018-09-07 13:34:28,655 - com.patientApp.Base.MavenGenericMethods -INFO - CLICK ON THE SAVE BUTTON
+2018-09-07 13:34:33,901 - com.patientApp.Base.MavenGenericMethods -INFO - CLICK ON THE BACK BUTTON TO BRING ON THE HOME PAGE
+2018-09-07 13:34:54,975 - com.patientApp.Base.MavenGenericMethods -INFO - ******************whatWeTreatHam****************
+2018-09-07 13:34:54,975 - com.patientApp.Base.MavenGenericMethods -INFO - CLICK ON THE HAMBURGER MENU
+2018-09-07 13:34:56,277 - com.patientApp.Base.MavenGenericMethods -INFO - VALIDATING THE ASSERTION
+2018-09-07 13:35:27,079 - com.patientApp.Base.MavenGenericMethods -INFO - ******************whatWeTreatHam****************
+2018-09-07 13:35:27,079 - com.patientApp.Base.MavenGenericMethods -INFO - CLICK ON THE HAMBURGER MENU
+2018-09-07 13:35:29,048 - com.patientApp.Base.MavenGenericMethods -INFO - VALIDATING THE ASSERTION
+2018-09-07 13:35:55,196 - com.patientApp.Base.MavenGenericMethods -INFO - ******************whatWeTreatHam****************
+2018-09-07 13:35:55,196 - com.patientApp.Base.MavenGenericMethods -INFO - CLICK ON THE HAMBURGER MENU
+2018-09-07 13:35:57,114 - com.patientApp.Base.MavenGenericMethods -INFO - VALIDATING THE ASSERTION

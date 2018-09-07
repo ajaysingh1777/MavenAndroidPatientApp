@@ -30,13 +30,13 @@ public class MavenTestClass extends TestBase{
 		setup(null, null, null);
 	}*/
 	
-	
+/*	
 	@Test(priority=1)
 	public void signUpInApplication() throws Exception
 	{
 		genericMethods.OnboardingToConsultScreen(driver,"9999999999");
 	}
-
+*/
 /*	
 	@Test(priority=2)
 	public void TestingPayTMpaymentForLabPackage() throws Exception
@@ -83,13 +83,13 @@ public class MavenTestClass extends TestBase{
 		genericMethods.medicalRecordUploadbycamera(driver);
 	}
 */
-/*	
+	
 	@Test(priority=8)
 	public void whatWeTreat() throws Exception
 	{
 		genericMethods.whatWeTreatHam(driver);
 	}
-*/	
+	
 	
 /*	
 	@Test(priority=9)

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">12 methods, 4 failed,  8 skipped,  </span>
+                    <span class="method-stats">4 methods, 1 failed,  2 skipped,  1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,21 +100,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
                     <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.patientApp.TestCases.MavenTestClass" hash-for-method="howDocsAppWorks">howDocsAppWorks</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.patientApp.TestCases.MavenTestClass" hash-for-method="signUpInApplication">signUpInApplication</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.patientApp.TestCases.MavenTestClass" hash-for-method="updatingTheProfile">updatingTheProfile</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.patientApp.TestCases.MavenTestClass" hash-for-method="whatWeTreat">whatWeTreat</a> <!-- method navigator-link -->
@@ -131,36 +116,6 @@
                     <div class="method-list-content skipped suite-Suite">
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.patientApp.TestCases.MavenTestClass" hash-for-method="howDocsAppWorks">howDocsAppWorks</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.patientApp.TestCases.MavenTestClass" hash-for-method="howDocsAppWorks">howDocsAppWorks</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.patientApp.TestCases.MavenTestClass" hash-for-method="signUpInApplication">signUpInApplication</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.patientApp.TestCases.MavenTestClass" hash-for-method="signUpInApplication">signUpInApplication</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.patientApp.TestCases.MavenTestClass" hash-for-method="updatingTheProfile">updatingTheProfile</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.patientApp.TestCases.MavenTestClass" hash-for-method="updatingTheProfile">updatingTheProfile</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.patientApp.TestCases.MavenTestClass" hash-for-method="whatWeTreat">whatWeTreat</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -170,6 +125,20 @@
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.patientApp.TestCases.MavenTestClass" hash-for-method="updatingTheProfile">updatingTheProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -189,114 +158,15 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="howDocsAppWorks">
-                  </a> <!-- howDocsAppWorks -->
-                  <span class="method-name">howDocsAppWorks</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: button_homescreenlabtesticon (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-	at com.patientApp.Base.MavenGenericMethods.videoHowDocAppWorksHam(MavenGenericMethods.java:832)
-	at com.patientApp.TestCases.MavenTestClass.howDocsAppWorks(MavenTestClass.java:76)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: button_homescreenlabtesticon
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;DESKTOP-FGT58SB&apos;, ip: &apos;192.168.2.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-	... 27 more
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="signUpInApplication">
-                  </a> <!-- signUpInApplication -->
-                  <span class="method-name">signUpInApplication</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;DESKTOP-FGT58SB&apos;, ip: &apos;192.168.2.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, databaseEnabled: false, desired: {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, device: Android, deviceName: Android, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, skipUnlock: true, version: }, device: Android, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 797a9b000504, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 797a9b000504, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 8.1.0, skipUnlock: true, statBarHeight: 72, takesScreenshot: true, version: , viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 37fc8d96-8a61-4e88-abaf-4689828ceffd
-*** Element info: {Using=id, value=text_english}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
-	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:149)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsById(RemoteWebDriver.java:369)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementsById(DefaultGenericMobileDriver.java:66)
-	at io.appium.java_client.AppiumDriver.findElementsById(AppiumDriver.java:153)
-	at org.openqa.selenium.By$ById.findElements(By.java:210)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
-	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:145)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-	at com.patientApp.Base.MavenGenericMethods.OnboardingToConsultScreen(MavenGenericMethods.java:173)
-	at com.patientApp.TestCases.MavenTestClass.signUpInApplication(MavenTestClass.java:37)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="updatingTheProfile">
-                  </a> <!-- updatingTheProfile -->
-                  <span class="method-name">updatingTheProfile</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: button_homescreenlabtesticon (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-	at com.patientApp.Base.MavenGenericMethods.profileUpdateHam(MavenGenericMethods.java:751)
-	at com.patientApp.TestCases.MavenTestClass.updatingTheProfile(MavenTestClass.java:70)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: button_homescreenlabtesticon
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;DESKTOP-FGT58SB&apos;, ip: &apos;192.168.2.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-	... 27 more
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="whatWeTreat">
                   </a> <!-- whatWeTreat -->
                   <span class="method-name">whatWeTreat</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: button_homescreenlabtesticon (tried for 10 second(s) with 500 milliseconds interval)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.LinearLayout[@index=&apos;0&apos;]/android.widget.LinearLayout/android.widget.LinearLayout[@index=&apos;1&apos;]/android.widget.TextView (tried for 10 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-	at com.patientApp.Base.MavenGenericMethods.whatWeTreatHam(MavenGenericMethods.java:1039)
-	at com.patientApp.TestCases.MavenTestClass.whatWeTreat(MavenTestClass.java:88)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: button_homescreenlabtesticon
+	at com.patientApp.Base.MavenGenericMethods.whatWeTreatHam(MavenGenericMethods.java:1044)
+	at com.patientApp.TestCases.MavenTestClass.whatWeTreat(MavenTestClass.java:90)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //android.widget.LinearLayout[@index=&apos;0&apos;]/android.widget.LinearLayout/android.widget.LinearLayout[@index=&apos;1&apos;]/android.widget.TextView
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
 System info: host: &apos;DESKTOP-FGT58SB&apos;, ip: &apos;192.168.2.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
@@ -323,71 +193,17 @@ Driver info: driver.version: unknown
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="howDocsAppWorks">
-                  </a> <!-- howDocsAppWorks -->
-                  <span class="method-name">howDocsAppWorks</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: button_homescreenlabtesticon (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-	at com.patientApp.Base.MavenGenericMethods.videoHowDocAppWorksHam(MavenGenericMethods.java:832)
-	at com.patientApp.TestCases.MavenTestClass.howDocsAppWorks(MavenTestClass.java:76)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: button_homescreenlabtesticon
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;DESKTOP-FGT58SB&apos;, ip: &apos;192.168.2.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-	... 27 more
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="howDocsAppWorks">
-                  </a> <!-- howDocsAppWorks -->
-                  <span class="method-name">howDocsAppWorks</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: button_homescreenlabtesticon (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-	at com.patientApp.Base.MavenGenericMethods.videoHowDocAppWorksHam(MavenGenericMethods.java:832)
-	at com.patientApp.TestCases.MavenTestClass.howDocsAppWorks(MavenTestClass.java:76)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: button_homescreenlabtesticon
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;DESKTOP-FGT58SB&apos;, ip: &apos;192.168.2.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-	... 27 more
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="signUpInApplication">
-                  </a> <!-- signUpInApplication -->
-                  <span class="method-name">signUpInApplication</span>
+                  <a name="whatWeTreat">
+                  </a> <!-- whatWeTreat -->
+                  <span class="method-name">whatWeTreat</span>
                   <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
 System info: host: &apos;DESKTOP-FGT58SB&apos;, ip: &apos;192.168.2.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, databaseEnabled: false, desired: {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, device: Android, deviceName: Android, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, skipUnlock: true, version: }, device: Android, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 797a9b000504, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 797a9b000504, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 8.1.0, skipUnlock: true, statBarHeight: 72, takesScreenshot: true, version: , viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 86a2360a-aa46-4fa6-9fc0-c457d13423fc
-*** Element info: {Using=id, value=text_english}
+Session ID: 133a86fa-8854-41ab-8196-53254a74dd32
+*** Element info: {Using=xpath, value=//android.widget.LinearLayout[@index=&apos;0&apos;]/android.widget.LinearLayout/android.widget.LinearLayout[@index=&apos;1&apos;]/android.widget.TextView}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -402,10 +218,10 @@ Session ID: 86a2360a-aa46-4fa6-9fc0-c457d13423fc
 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
 	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
 	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:149)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsById(RemoteWebDriver.java:369)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementsById(DefaultGenericMobileDriver.java:66)
-	at io.appium.java_client.AppiumDriver.findElementsById(AppiumDriver.java:153)
-	at org.openqa.selenium.By$ById.findElements(By.java:210)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:144)
+	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:181)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
 	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
 	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:145)
@@ -414,108 +230,9 @@ Session ID: 86a2360a-aa46-4fa6-9fc0-c457d13423fc
 	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
 	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-	at com.patientApp.Base.MavenGenericMethods.OnboardingToConsultScreen(MavenGenericMethods.java:173)
-	at com.patientApp.TestCases.MavenTestClass.signUpInApplication(MavenTestClass.java:37)
+	at com.patientApp.Base.MavenGenericMethods.whatWeTreatHam(MavenGenericMethods.java:1044)
+	at com.patientApp.TestCases.MavenTestClass.whatWeTreat(MavenTestClass.java:90)
 ... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="signUpInApplication">
-                  </a> <!-- signUpInApplication -->
-                  <span class="method-name">signUpInApplication</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;DESKTOP-FGT58SB&apos;, ip: &apos;192.168.2.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, databaseEnabled: false, desired: {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, device: Android, deviceName: Android, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, skipUnlock: true, version: }, device: Android, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 797a9b000504, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 797a9b000504, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 8.1.0, skipUnlock: true, statBarHeight: 72, takesScreenshot: true, version: , viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: d3508d12-5d71-4706-8470-c73d92d5f4fc
-*** Element info: {Using=id, value=text_english}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
-	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:149)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsById(RemoteWebDriver.java:369)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementsById(DefaultGenericMobileDriver.java:66)
-	at io.appium.java_client.AppiumDriver.findElementsById(AppiumDriver.java:153)
-	at org.openqa.selenium.By$ById.findElements(By.java:210)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
-	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:145)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-	at com.patientApp.Base.MavenGenericMethods.OnboardingToConsultScreen(MavenGenericMethods.java:173)
-	at com.patientApp.TestCases.MavenTestClass.signUpInApplication(MavenTestClass.java:37)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="updatingTheProfile">
-                  </a> <!-- updatingTheProfile -->
-                  <span class="method-name">updatingTheProfile</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: button_homescreenlabtesticon (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-	at com.patientApp.Base.MavenGenericMethods.profileUpdateHam(MavenGenericMethods.java:751)
-	at com.patientApp.TestCases.MavenTestClass.updatingTheProfile(MavenTestClass.java:70)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: button_homescreenlabtesticon
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;DESKTOP-FGT58SB&apos;, ip: &apos;192.168.2.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-	... 27 more
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="updatingTheProfile">
-                  </a> <!-- updatingTheProfile -->
-                  <span class="method-name">updatingTheProfile</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: button_homescreenlabtesticon (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-	at com.patientApp.Base.MavenGenericMethods.profileUpdateHam(MavenGenericMethods.java:751)
-	at com.patientApp.TestCases.MavenTestClass.updatingTheProfile(MavenTestClass.java:70)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: button_homescreenlabtesticon
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;DESKTOP-FGT58SB&apos;, ip: &apos;192.168.2.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-	... 27 more
-... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -524,39 +241,12 @@ Driver info: driver.version: unknown
                   <a name="whatWeTreat">
                   </a> <!-- whatWeTreat -->
                   <span class="method-name">whatWeTreat</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: button_homescreenlabtesticon (tried for 10 second(s) with 500 milliseconds interval)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.LinearLayout[@index=&apos;0&apos;]/android.widget.LinearLayout/android.widget.LinearLayout[@index=&apos;1&apos;]/android.widget.TextView (tried for 10 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-	at com.patientApp.Base.MavenGenericMethods.whatWeTreatHam(MavenGenericMethods.java:1039)
-	at com.patientApp.TestCases.MavenTestClass.whatWeTreat(MavenTestClass.java:88)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: button_homescreenlabtesticon
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;DESKTOP-FGT58SB&apos;, ip: &apos;192.168.2.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-	... 27 more
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="whatWeTreat">
-                  </a> <!-- whatWeTreat -->
-                  <span class="method-name">whatWeTreat</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: button_homescreenlabtesticon (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-	at com.patientApp.Base.MavenGenericMethods.whatWeTreatHam(MavenGenericMethods.java:1039)
-	at com.patientApp.TestCases.MavenTestClass.whatWeTreat(MavenTestClass.java:88)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: button_homescreenlabtesticon
+	at com.patientApp.Base.MavenGenericMethods.whatWeTreatHam(MavenGenericMethods.java:1044)
+	at com.patientApp.TestCases.MavenTestClass.whatWeTreat(MavenTestClass.java:90)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //android.widget.LinearLayout[@index=&apos;0&apos;]/android.widget.LinearLayout/android.widget.LinearLayout[@index=&apos;1&apos;]/android.widget.TextView
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
 System info: host: &apos;DESKTOP-FGT58SB&apos;, ip: &apos;192.168.2.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
@@ -575,6 +265,21 @@ Driver info: driver.version: unknown
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.patientApp.TestCases.MavenTestClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatingTheProfile">
+                  </a> <!-- updatingTheProfile -->
+                  <span class="method-name">updatingTheProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -586,6 +291,8 @@ Driver info: driver.version: unknown
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;listeners&gt;
+    &lt;listener class-name=&quot;Listener.ListenerTest&quot;/&gt;
+    &lt;listener class-name=&quot;Listener.ExtentReportListener&quot;/&gt;
     &lt;listener class-name=&quot;com.main.util.RetryFailedTestCases&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;1&quot; name=&quot;Test&quot;&gt;
@@ -630,55 +337,23 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(12);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'signUpInApplication')
+data.setCell(0, 1, 'updatingTheProfile')
 data.setCell(0, 2, 'com.patientApp.TestCases.MavenTestClass')
-data.setCell(0, 3, 11587);
+data.setCell(0, 3, 31444);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'signUpInApplication')
+data.setCell(1, 1, 'whatWeTreat')
 data.setCell(1, 2, 'com.patientApp.TestCases.MavenTestClass')
-data.setCell(1, 3, 11174);
+data.setCell(1, 3, 16181);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'updatingTheProfile')
+data.setCell(2, 1, 'whatWeTreat')
 data.setCell(2, 2, 'com.patientApp.TestCases.MavenTestClass')
-data.setCell(2, 3, 10522);
+data.setCell(2, 3, 16131);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'whatWeTreat')
 data.setCell(3, 2, 'com.patientApp.TestCases.MavenTestClass')
-data.setCell(3, 3, 10497);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'updatingTheProfile')
-data.setCell(4, 2, 'com.patientApp.TestCases.MavenTestClass')
-data.setCell(4, 3, 10476);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'whatWeTreat')
-data.setCell(5, 2, 'com.patientApp.TestCases.MavenTestClass')
-data.setCell(5, 3, 10431);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'howDocsAppWorks')
-data.setCell(6, 2, 'com.patientApp.TestCases.MavenTestClass')
-data.setCell(6, 3, 10419);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'howDocsAppWorks')
-data.setCell(7, 2, 'com.patientApp.TestCases.MavenTestClass')
-data.setCell(7, 3, 10410);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'whatWeTreat')
-data.setCell(8, 2, 'com.patientApp.TestCases.MavenTestClass')
-data.setCell(8, 3, 10383);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'updatingTheProfile')
-data.setCell(9, 2, 'com.patientApp.TestCases.MavenTestClass')
-data.setCell(9, 3, 10081);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'howDocsAppWorks')
-data.setCell(10, 2, 'com.patientApp.TestCases.MavenTestClass')
-data.setCell(10, 3, 10017);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'signUpInApplication')
-data.setCell(11, 2, 'com.patientApp.TestCases.MavenTestClass')
-data.setCell(11, 3, 2962);
+data.setCell(3, 3, 9525);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -715,152 +390,50 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">signUpInApplication</span>
-                <span class="method-start">17842 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">20810 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">21038 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">signUpInApplication</span>
-                <span class="method-start">38104 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">49696 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">49874 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">signUpInApplication</span>
-                <span class="method-start">67009 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">78208 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">78381 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
                 <span class="method-name">updatingTheProfile</span>
-                <span class="method-start">94820 ms</span>
+                <span class="method-start">21277 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">105300 ms</span>
+                <span class="method-start">52725 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">105476 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">updatingTheProfile</span>
-                <span class="method-start">121829 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">132353 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">132493 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">updatingTheProfile</span>
-                <span class="method-start">148906 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">160171 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">160345 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">howDocsAppWorks</span>
-                <span class="method-start">176533 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">186945 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">187137 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">howDocsAppWorks</span>
-                <span class="method-start">203583 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">214004 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">214181 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">howDocsAppWorks</span>
-                <span class="method-start">231043 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">242212 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">242533 ms</span>
+                <span class="method-start">52930 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">whatWeTreat</span>
-                <span class="method-start">259391 ms</span>
+                <span class="method-start">70229 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">269889 ms</span>
+                <span class="method-start">86414 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">270056 ms</span>
+                <span class="method-start">86636 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">whatWeTreat</span>
-                <span class="method-start">287002 ms</span>
+                <span class="method-start">103736 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">297435 ms</span>
+                <span class="method-start">113265 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">297673 ms</span>
+                <span class="method-start">113427 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">whatWeTreat</span>
-                <span class="method-start">314480 ms</span>
+                <span class="method-start">129968 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">326074 ms</span>
+                <span class="method-start">146928 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -3,6 +3,8 @@
 <suite name="Suite">
     
     <listeners>
+    <listener class-name="Listener.ListenerTest"/>
+    <listener class-name="Listener.ExtentReportListener"/>  
 	<listener class-name="com.main.util.RetryFailedTestCases"/>
 	</listeners>
     

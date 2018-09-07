@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 195.193 s <<< FAILURE! - in TestSuite
-signUpInApplication(com.patientApp.TestCases.MavenTestClass)  Time elapsed: 9.318 s  <<< FAILURE!
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 150.083 s <<< FAILURE! - in TestSuite
+whatWeTreat(com.patientApp.TestCases.MavenTestClass)  Time elapsed: 15.767 s  <<< FAILURE!
 org.openqa.selenium.WebDriverException: 
 An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -10,18 +10,7 @@ Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.1
 System info: host: 'DESKTOP-FGT58SB', ip: '192.168.2.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, databaseEnabled: false, desired: {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, device: Android, deviceName: Android, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, skipUnlock: true, version: }, device: Android, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 797a9b000504, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 797a9b000504, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 8.1.0, skipUnlock: true, statBarHeight: 72, takesScreenshot: true, version: , viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 57755f17-7c53-4095-a582-ae0fc0354b76
-*** Element info: {Using=id, value=text_english}
-	at com.patientApp.TestCases.MavenTestClass.signUpInApplication(MavenTestClass.java:37)
-
-updatingTheProfile(com.patientApp.TestCases.MavenTestClass)  Time elapsed: 15.498 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-FGT58SB', ip: '192.168.2.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, databaseEnabled: false, desired: {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, device: Android, deviceName: Android, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, skipUnlock: true, version: }, device: Android, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 797a9b000504, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 797a9b000504, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 8.1.0, skipUnlock: true, statBarHeight: 72, takesScreenshot: true, version: , viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 32a559c6-b763-43cc-8aaa-5cc182508144
-	at com.patientApp.TestCases.MavenTestClass.updatingTheProfile(MavenTestClass.java:70)
+Session ID: 71af5b45-e34f-4ffb-a993-0b1ef6b32f3d
+*** Element info: {Using=xpath, value=//android.widget.LinearLayout[@index='0']/android.widget.LinearLayout/android.widget.LinearLayout[@index='1']/android.widget.TextView}
+	at com.patientApp.TestCases.MavenTestClass.whatWeTreat(MavenTestClass.java:90)
 
