@@ -1,4 +1,5 @@
 com\patientApp\PO\PaymentDetailsPagePO.class
+Listener\ExtentReportListener.class
 com\main\util\ExtentReportListener.class
 com\patientApp\Base\MavenGenericMethods.class
 com\patientApp\PO\ConsultAdoctorPO.class

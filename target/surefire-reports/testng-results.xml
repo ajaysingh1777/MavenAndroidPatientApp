@@ -2,28 +2,28 @@
 <testng-results skipped="2" failed="1" ignored="0" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="148518" started-at="2018-09-07T08:03:39Z" finished-at="2018-09-07T08:06:08Z">
+  <suite name="Suite" duration-ms="148398" started-at="2018-09-11T07:19:19Z" finished-at="2018-09-11T07:21:47Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="148518" started-at="2018-09-07T08:03:39Z" finished-at="2018-09-07T08:06:08Z">
+    <test name="Test" duration-ms="148398" started-at="2018-09-11T07:19:19Z" finished-at="2018-09-11T07:21:47Z">
       <class name="com.patientApp.TestCases.MavenTestClass">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="setup" is-config="true" duration-ms="22735" started-at="2018-09-07T08:03:40Z" finished-at="2018-09-07T08:04:02Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="setup" is-config="true" duration-ms="21270" started-at="2018-09-11T07:19:19Z" finished-at="2018-09-11T07:19:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="updatingTheProfile()[pri:5, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="updatingTheProfile" duration-ms="31223" started-at="2018-09-07T08:04:02Z" finished-at="2018-09-07T08:04:33Z">
+        <test-method status="PASS" signature="updatingTheProfile()[pri:5, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="updatingTheProfile" duration-ms="28319" started-at="2018-09-11T07:19:40Z" finished-at="2018-09-11T07:20:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatingTheProfile -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="tearDown" is-config="true" duration-ms="220" started-at="2018-09-07T08:04:33Z" finished-at="2018-09-07T08:04:34Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="tearDown" is-config="true" duration-ms="401" started-at="2018-09-11T07:20:08Z" finished-at="2018-09-11T07:20:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="setup" is-config="true" duration-ms="16921" started-at="2018-09-07T08:04:34Z" finished-at="2018-09-07T08:04:51Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="setup" is-config="true" duration-ms="20323" started-at="2018-09-11T07:20:09Z" finished-at="2018-09-11T07:20:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="whatWeTreat()[pri:8, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="whatWeTreat" duration-ms="16536" started-at="2018-09-07T08:04:51Z" finished-at="2018-09-07T08:05:07Z">
+        <test-method status="SKIP" signature="whatWeTreat()[pri:8, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="whatWeTreat" duration-ms="17041" started-at="2018-09-11T07:20:29Z" finished-at="2018-09-11T07:20:46Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.LinearLayout[@index='0']/android.widget.LinearLayout/android.widget.LinearLayout[@index='1']/android.widget.TextView (tried for 10 second(s) with 500 milliseconds interval)]]>
@@ -81,35 +81,35 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- whatWeTreat -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="tearDown" is-config="true" duration-ms="240" started-at="2018-09-07T08:05:07Z" finished-at="2018-09-07T08:05:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="tearDown" is-config="true" duration-ms="262" started-at="2018-09-11T07:20:46Z" finished-at="2018-09-11T07:20:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="setup" is-config="true" duration-ms="16786" started-at="2018-09-07T08:05:07Z" finished-at="2018-09-07T08:05:24Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="setup" is-config="true" duration-ms="20043" started-at="2018-09-11T07:20:46Z" finished-at="2018-09-11T07:21:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="whatWeTreat()[pri:8, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="whatWeTreat" duration-ms="10460" started-at="2018-09-07T08:05:24Z" finished-at="2018-09-07T08:05:35Z">
+        <test-method status="SKIP" signature="whatWeTreat()[pri:8, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="whatWeTreat" duration-ms="3492" started-at="2018-09-11T07:21:07Z" finished-at="2018-09-11T07:21:10Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up (WARNING: The server did not provide any stacktrace information)
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'DESKTOP-FGT58SB', ip: '192.168.2.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, databaseEnabled: false, desired: {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, device: Android, deviceName: Android, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, skipUnlock: true, version: }, device: Android, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 797a9b000504, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 797a9b000504, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 8.1.0, skipUnlock: true, statBarHeight: 72, takesScreenshot: true, version: , viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: fe83fd67-4a89-4645-8aa0-00673904d7ca
-*** Element info: {Using=xpath, value=//android.widget.LinearLayout[@index='0']/android.widget.LinearLayout/android.widget.LinearLayout[@index='1']/android.widget.TextView}]]>
+Session ID: aabea8b9-cd08-4f2c-90df-d68099a81b5c
+*** Element info: {Using=id, value=button_homescreenlabtesticon}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up (WARNING: The server did not provide any stacktrace information)
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'DESKTOP-FGT58SB', ip: '192.168.2.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, databaseEnabled: false, desired: {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, device: Android, deviceName: Android, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, skipUnlock: true, version: }, device: Android, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 797a9b000504, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 797a9b000504, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 8.1.0, skipUnlock: true, statBarHeight: 72, takesScreenshot: true, version: , viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: fe83fd67-4a89-4645-8aa0-00673904d7ca
-*** Element info: {Using=xpath, value=//android.widget.LinearLayout[@index='0']/android.widget.LinearLayout/android.widget.LinearLayout[@index='1']/android.widget.TextView}
+Session ID: aabea8b9-cd08-4f2c-90df-d68099a81b5c
+*** Element info: {Using=id, value=button_homescreenlabtesticon}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -128,10 +128,10 @@ at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
 at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
 at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:149)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
-at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:144)
-at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:181)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementsById(RemoteWebDriver.java:369)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementsById(DefaultGenericMobileDriver.java:66)
+at io.appium.java_client.AppiumDriver.findElementsById(AppiumDriver.java:153)
+at org.openqa.selenium.By$ById.findElements(By.java:210)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
 at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
 at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:145)
@@ -140,7 +140,7 @@ at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditio
 at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
 at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-at com.patientApp.Base.MavenGenericMethods.whatWeTreatHam(MavenGenericMethods.java:1044)
+at com.patientApp.Base.MavenGenericMethods.whatWeTreatHam(MavenGenericMethods.java:1031)
 at com.patientApp.TestCases.MavenTestClass.whatWeTreat(MavenTestClass.java:90)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -176,15 +176,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- whatWeTreat -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="tearDown" is-config="true" duration-ms="260" started-at="2018-09-07T08:05:35Z" finished-at="2018-09-07T08:05:35Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="tearDown" is-config="true" duration-ms="209" started-at="2018-09-11T07:21:10Z" finished-at="2018-09-11T07:21:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="setup" is-config="true" duration-ms="17214" started-at="2018-09-07T08:05:35Z" finished-at="2018-09-07T08:05:52Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="setup" is-config="true" duration-ms="20127" started-at="2018-09-11T07:21:10Z" finished-at="2018-09-11T07:21:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="whatWeTreat()[pri:8, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="whatWeTreat" duration-ms="15527" started-at="2018-09-07T08:05:52Z" finished-at="2018-09-07T08:06:08Z">
+        <test-method status="FAIL" signature="whatWeTreat()[pri:8, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="whatWeTreat" duration-ms="16574" started-at="2018-09-11T07:21:30Z" finished-at="2018-09-11T07:21:47Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET (WARNING: The server did not provide any stacktrace information)
@@ -193,7 +193,7 @@ Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.1
 System info: host: 'DESKTOP-FGT58SB', ip: '192.168.2.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, databaseEnabled: false, desired: {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, device: Android, deviceName: Android, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, skipUnlock: true, version: }, device: Android, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 797a9b000504, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 797a9b000504, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 8.1.0, skipUnlock: true, statBarHeight: 72, takesScreenshot: true, version: , viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 71af5b45-e34f-4ffb-a993-0b1ef6b32f3d
+Session ID: 22c39f5e-3763-49e0-a59c-71cfe02023c1
 *** Element info: {Using=xpath, value=//android.widget.LinearLayout[@index='0']/android.widget.LinearLayout/android.widget.LinearLayout[@index='1']/android.widget.TextView}]]>
             </message>
             <full-stacktrace>
@@ -203,7 +203,7 @@ Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.1
 System info: host: 'DESKTOP-FGT58SB', ip: '192.168.2.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, databaseEnabled: false, desired: {appActivity: com.docsapp.patients.app.Ma..., appPackage: com.docsapp.patients.debug, automationName: uiautomator2, browserName: android, device: Android, deviceName: Android, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, skipUnlock: true, version: }, device: Android, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 797a9b000504, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 797a9b000504, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, orientation: PORTRAIT, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 8.1.0, skipUnlock: true, statBarHeight: 72, takesScreenshot: true, version: , viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 71af5b45-e34f-4ffb-a993-0b1ef6b32f3d
+Session ID: 22c39f5e-3763-49e0-a59c-71cfe02023c1
 *** Element info: {Using=xpath, value=//android.widget.LinearLayout[@index='0']/android.widget.LinearLayout/android.widget.LinearLayout[@index='1']/android.widget.TextView}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -271,7 +271,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- whatWeTreat -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="tearDown" is-config="true" duration-ms="164" started-at="2018-09-07T08:06:08Z" finished-at="2018-09-07T08:06:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.patientApp.TestCases.MavenTestClass@33723e30]" name="tearDown" is-config="true" duration-ms="225" started-at="2018-09-11T07:21:47Z" finished-at="2018-09-11T07:21:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -20,7 +20,7 @@
 		import com.relevantcodes.extentreports.LogStatus;
 		
 		public class ExtentReportListener implements IReporter {
-			private ExtentReports extent;
+			private ExtentReports extent; 
 		
 			public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites,
 					String outputDirectory) {
@@ -66,8 +66,7 @@
 						extent.endTest(test);
 					}
 				}
-			}
-		
+			}	
 			private Date getTime(long millis) {
 				Calendar calendar = Calendar.getInstance();
 				calendar.setTimeInMillis(millis);
